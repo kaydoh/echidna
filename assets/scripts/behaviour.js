@@ -12,6 +12,7 @@ $(document).ready(function () {
 
   function getStatus() {
     var result = [];
+
     for (var i in jobs) {
       $.get('api/status',
         { id: jobs[i] },

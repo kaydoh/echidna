@@ -1,4 +1,3 @@
-
 /**
  * Behaviour of the Echidna UI.
  *
@@ -13,7 +12,7 @@ $(document).ready(function () {
   function getStatus() {
     var result = [];
 
-    for (var i in jobs) {
+    for (var i = 0; i < jobs.length; i++) {
       $.get('api/status',
         { id: jobs[i] },
         function (data, foo, xhr) {

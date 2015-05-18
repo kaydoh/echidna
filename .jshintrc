@@ -5,6 +5,11 @@
   "freeze": true,
   "funcscope": true,
   "globalstrict": true,
+  "globals": {
+    "$": false,
+    "document": false,
+    "window": false
+  },
   "loopfunc": true,
   "noarg": true,
   "nocomma": true,

@@ -1,4 +1,4 @@
-/**
+</**
  * @module
  */
 
@@ -107,12 +107,12 @@ var processRequest = function (req, res, isTar) {
 
     if (isTar) {
       jobList = ['retrieve-resources', 'metadata', 'user-checker', 'specberus',
-                 'third-party-checker', 'publish', 'tr-install',
+                 'third-party-checker', 'tinker', 'publish', 'tr-install',
                  'update-tr-shortlink'];
     }
     else {
       jobList = ['retrieve-resources', 'metadata', 'specberus', 'token-checker',
-                 'third-party-checker', 'publish', 'tr-install',
+                 'third-party-checker', 'tinker', 'publish', 'tr-install',
                  'update-tr-shortlink'];
     }
 

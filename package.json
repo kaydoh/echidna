@@ -53,7 +53,7 @@
     "moment": "2.13.0",
     "multer": "1.1",
     "node-uuid": "1.4",
-    "nodegit": "0.6",
+    "nodegit": "0.13.2",
     "passport": "0.3",
     "passport-http": "0.3",
     "promise": "7.1",
